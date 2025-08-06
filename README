@@ -1,0 +1,26 @@
+# 8-bit Microprocessor in VHDL
+
+This project implements an **8-bit Harvard architecture microprocessor** from scratch using **VHDL**. 
+It supports a custom instruction set, ALU operations, timer functionality, I/O port interfacing, and full interrupt handling logic.
+The processor has been simulated and verified using waveform analysis to validate its behavior across multiple instruction sequences.
+
+---
+
+## Features
+
+- 8-bit ALU with logic and arithmetic operations
+- 16-instruction custom decoder (8x10 and 8x8 decoding schemes)
+- Program Counter (PC) with reset/preset logic
+- Separate instruction and data memory (Harvard architecture)
+- Tri-state buses for data flow control
+- Temporal control via a general control module (GCM)
+- Input/Output Port with configurable direction (Read/Write)
+- Timer module with programmable countdown and flag generation
+- Full interrupt controller:
+  - Maskable interrupts
+  - Program counter save/restore
+  - Accumulator handling during interrupt
+- Simulation waveforms for all components (ALU, decoder, PC, etc.)
+
+
+
