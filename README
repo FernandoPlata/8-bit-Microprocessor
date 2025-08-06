@@ -1,6 +1,6 @@
 # 8-bit Microprocessor in VHDL
 
-This project implements an **8-bit Harvard architecture microprocessor** from scratch using **VHDL**. 
+This project implements an **8-bit Harvard architecture microprocessor** from scratch using **Quartus**. 
 It supports a custom instruction set, ALU operations, timer functionality, I/O port interfacing, and full interrupt handling logic.
 The processor has been simulated and verified using waveform analysis to validate its behavior across multiple instruction sequences.
 
